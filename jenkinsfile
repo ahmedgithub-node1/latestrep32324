@@ -4,11 +4,16 @@ pipeline{
 
     stages{
 
-        stage('Git Checkout')
+        stage('Git chckout'){
 
             steps{
 
-                script{
+                scripts{
 
                     git branch: 'master', url: 'https://github.com/ahmedgithub-node1/latestrep32324.git'
                 }
+            
+            }
+        }
+    }
+}
