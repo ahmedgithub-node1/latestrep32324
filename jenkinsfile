@@ -1,14 +1,17 @@
 pipeline{
 
-     agent any
+    agent any
 
-     stages{
-        
-         stage('Git checkout'){
+    stages{
 
-              steps{
+        stage('Git Checkout"')
 
-                   script{
-                    
-                        git branch: 'master', url: 'https://github.com/ahmedgithub-node1/latestrep32324.git'
+            steps{
+
+                script{
+
+                    git branch: 'master', url: 'https://github.com/ahmedgithub-node1/latestrep32324.git'
                 }
+            }
+    }
+}
