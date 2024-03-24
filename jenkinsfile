@@ -8,7 +8,7 @@ pipeline{
 
             steps{
 
-                scripts{
+                script{
 
                     git branch: 'master', url: 'https://github.com/ahmedgithub-node1/latestrep32324.git'
                 }
