@@ -9,7 +9,7 @@ pipeline{
         stage('Git checkout'){
 
             steps{
-            gitchekout(
+            gitChekout(
                 branch: "master",
                 url: "https://github.com/ahmedgithub-node1/latestrep32324.git"
             )   
